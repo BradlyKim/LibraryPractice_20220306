@@ -44,13 +44,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-//            임시 : Call 기능 실제 활용 => 앱이 죽을 예정
+//            실제 권한 확인 요청
 
             TedPermission.create()
                 .setPermissionListener(pl)
                 .setPermissions(android.Manifest.permission.CALL_PHONE)
                 .check()
-
 
         }
 
@@ -65,6 +64,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setValues(){
+
+//        인터넷상의 이미지를 곧바로 이미지뷰에 반영.
 
     }
 }
