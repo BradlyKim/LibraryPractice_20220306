@@ -8,9 +8,11 @@
     android:background="@color/white"
     tools:context=".ViewPhotoActivity">
 
-    <ImageView
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photo_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/cnc_logo_1"/>
+        android:src="@drawable/cnc_logo_1"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
