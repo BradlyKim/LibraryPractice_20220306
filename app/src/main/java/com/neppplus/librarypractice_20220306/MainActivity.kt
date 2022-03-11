@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     fun setValues(){
 
 //        인터넷상의 이미지를 곧바로 이미지뷰에 반영.
-        Glide.with(this).load("https://mblogthumb-phinf.pstatic.net/MjAyMDA4MTdfMyAg/MDAxNTk3NjMyMTI3MDI0.JmZhe80YPGtbzzB1XAQuWHGekocEmOsTh_D6Zo_slKYg.PHFq5JSQxnCXxRlrCFH4RBrhxBgGh4as520Oc8-aDnYg.JPEG.cncvan/15.JPG?type=w800").into(imgInternet)
+        Glide.with(this).load("http://mblogthumb-phinf.pstatic.net/MjAyMDA4MTdfMyAg/MDAxNTk3NjMyMTI3MDI0.JmZhe80YPGtbzzB1XAQuWHGekocEmOsTh_D6Zo_slKYg.PHFq5JSQxnCXxRlrCFH4RBrhxBgGh4as520Oc8-aDnYg.JPEG.cncvan/15.JPG?type=w800").into(imgInternet)
 
 
     }
